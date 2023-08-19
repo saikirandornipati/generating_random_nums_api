@@ -1,6 +1,6 @@
 
 
-#Generating_random_nums_api
+**#Generating_random_nums_api**
 
 
 Brief description of your application.
@@ -14,8 +14,6 @@ Brief description of your application.
   - [Flask](#flask)
 - [API Endpoint](#api-endpoint)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -24,7 +22,11 @@ Brief description of your application.
 List the prerequisites that users need to have installed on their system before they can run your app. For example:
 
 - Python 3.x
-- pip
+- pip3
+
+To install pip:
+python3 get-pip.py
+
 
 Include instructions or links to installation guides for these prerequisites.
 
@@ -34,12 +36,12 @@ Provide step-by-step instructions on how to install your application. This might
 
 1. Cloning the repository:
    ```bash
-   git clone https://github.com/your-username/your-app.git
+   git clone https://github.com/saikirandornipati/generating_random_nums_api.git
    ```
 
 2. Navigating to the project directory:
    ```bash
-   cd your-app
+   cd generating_random_nums_api
    ```
 
 3. Installing dependencies:
@@ -55,7 +57,7 @@ Explain how to run your application using both FastAPI and Flask. Include separa
 
 1. Navigate to the `app` directory:
    ```bash
-   cd app
+   cd fastapi_api_app_random_numbers
    ```
 
 2. Run the FastAPI app using Uvicorn:
@@ -63,7 +65,7 @@ Explain how to run your application using both FastAPI and Flask. Include separa
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
-The app should now be running at `http://localhost:8000`.
+The app should now be running at `http://127.0.0.1:8000`.
 
 ### Flask
 
@@ -77,7 +79,7 @@ The app should now be running at `http://localhost:8000`.
    flask run
    ```
 
-The app should now be running at `http://localhost:5000`.
+The app should now be running at `http://127.0.0.1:5000`.
 
 ## API Endpoint
 
@@ -87,13 +89,6 @@ Explain the API endpoint that your app provides and how users can interact with 
 
 Explain how to run the tests for your app. Include instructions for running test files using `pytest` or any other testing framework.
 
-## Contributing
-
-Provide guidelines for contributors who want to help improve your app. This might include information about creating issues, making pull requests, and coding standards.
-
-## License
-
-State the license under which your app is distributed.
 
 ---
 
