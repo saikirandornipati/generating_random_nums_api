@@ -1,6 +1,7 @@
-Creating a detailed README.md file that explains the execution steps of your FastAPI or Flask app can greatly assist users who want to set up and run your application. Here's a template you can use to structure the content of your README.md file:
 
-# Your App Name
+
+#Generating_random_nums_api
+
 
 Brief description of your application.
 
