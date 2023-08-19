@@ -1,6 +1,6 @@
 
 
-**#Generating_random_nums_api**
+# Generating_random_nums_api**
 
 
 Brief description of your application.
