@@ -62,7 +62,7 @@ Explain how to run your application using both FastAPI and Flask. Include separa
 
 2. Run the FastAPI app using Uvicorn:
    ```bash
-   uvicorn main:app --host 0.0.0.0 --port 8000
+   python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
 The app should now be running at `http://127.0.0.1:8000`.
